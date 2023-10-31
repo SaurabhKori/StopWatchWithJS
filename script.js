@@ -24,7 +24,8 @@ function reset(){
     min=0;
     sec=0;
     count=0;
-    
+    timer=false;
+    st=0;
     document.getElementById("hr").innerHTML="00";
     document.getElementById("sec").innerHTML="00";
     document.getElementById("min").innerHTML="00";
